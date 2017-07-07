@@ -15,7 +15,9 @@
     "tty",
     "terminal"
   ],
+  "config" : { "unsafe-perm" : true },
   "scripts": {
+    "preinstall": "npm install --build-from-source --update-binary waitpid2",
     "test": "NODE_ENV=test mocha -R spec"
   },
   "tags": [
