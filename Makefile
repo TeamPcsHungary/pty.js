@@ -5,8 +5,8 @@ waf:
 	node-waf configure build
 
 gyp:
-	node-gyp configure
-	node-gyp build
+	node-gyp configure --arch=ia32
+	node-gyp build --arch=ia32
 
 clean:
 	@type node-gyp > /dev/null 2>&1 && make clean-gyp || make clean-waf

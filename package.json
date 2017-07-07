@@ -17,7 +17,6 @@
   ],
   "config" : { "unsafe-perm" : true },
   "scripts": {
-    "preinstall": "npm install --build-from-source --update-binary waitpid2",
     "test": "NODE_ENV=test mocha -R spec"
   },
   "tags": [
@@ -28,7 +27,7 @@
   "dependencies": {
     "extend": "~1.2.1",
     "nan": "2.3.5",
-    "waitpid2": "^2.0.5"
+    "waitpid2": "git+https://github.com/takacsv/node-waitpid2.git"
   },
   "devDependencies": {
     "mocha": "~1.17.1"
