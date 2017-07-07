@@ -1,7 +1,6 @@
 {
   'targets': [{
     'target_name': 'pty',
-    "cflags": [ "-m32" ],
     'include_dirs' : [
       '<!(node -e "require(\'nan\')")'
     ],
