@@ -15,7 +15,6 @@
     "tty",
     "terminal"
   ],
-  "config" : { "unsafe-perm" : true },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec"
   },
